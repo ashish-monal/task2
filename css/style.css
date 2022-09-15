@@ -42,7 +42,7 @@ body{
 .headingdiv{
     width: 100%;
     height: 150px;
-    background: url("../img/bannerimage.jpeg");
+    background: url("../img/technology.jpg");
     color: white;
 }
 .heading1{
@@ -78,10 +78,11 @@ body{
 .first-heading h1{
     text-align: center;
     /* border: 2px solid blueviolet; */
-    background-color: gray;
+    background: linear-gradient(to right, #cc0000 0%, #3366ff 100%);
     height: auto;
     color: rgba(0, 0, 0, 0.619);
     padding-top: 15px;
+    padding-bottom: 15px;
     font-weight: 500;
 }
 .first-heading{
@@ -137,4 +138,9 @@ body{
 .n1:hover{
     text-decoration: underline
 }
-
+.nav1 p:hover{
+color: yellow;
+}
+.nav-contact-us p:hover{
+    color: cadetblue;
+}
